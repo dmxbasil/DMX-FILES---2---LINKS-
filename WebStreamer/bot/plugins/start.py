@@ -53,11 +53,11 @@ async def start(b, m):
                     disable_web_page_preview=True)
                 return
         await m.reply_text(
-            text='🙋 Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic!',
+            text='𝙷𝙻𝙾 𝙱𝚄𝙳𝙳𝚈 ☻︎\n𝙸 𝙰𝙼 𝙰 𝙸𝙽𝚂𝚃𝙰𝙽𝚃 𝙵𝙸𝙻𝙴 𝚃𝙾 𝙻𝙸𝙽𝙺 𝙶𝙴𝙽𝙰𝚁𝙰𝚃𝙴𝚁 𝙱𝙾𝚃 𝙾𝙵 𝙳𝙼𝚇 𝙶𝚁𝙾𝚄𝙿 ..𝙽𝙾𝚆 𝙸𝙰𝙼 𝙲𝚄𝚁𝚁𝙴𝙽𝚃𝙻𝚈 𝙵𝚄𝙻𝙻𝚃 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝙲𝚁𝙴 𝚈𝙾𝚄 𝙲𝙰𝙽 𝙰𝙻𝚂𝙾 𝚄𝚂𝙴 𝙼𝙴 \n\n𝚂𝙴𝙽𝙳 𝙼𝙴 𝙰𝙽𝚃 𝙵𝙸𝙻𝙴 𝙵𝙾𝚁𝙼 𝙰𝙽𝚈 𝚆𝙷𝙴𝚁𝙴 |»«| 𝙰𝙽𝙳 𝙲𝙻𝙾𝚂𝙴 𝚈𝙾𝚄𝚁 𝚂𝙼𝙰𝙻𝙻 𝙴𝚈𝙴𝚂 𝙰𝙽𝙳 𝙲𝙾𝚄𝙽𝚃 𝚃𝙾 𝙾𝙽𝙴(:_-_:)',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('Bots Channel', url='https://t.me/Discovery_Updates'), InlineKeyboardButton('Support Group', url='https://t.me/linux_repo')],
-                    [InlineKeyboardButton('Developer', url='https://t.me/AbirHasan2005')]
+                    [InlineKeyboardButton('𝐌𝐘 𝐂𝐇𝐀𝐍𝐍𝐄𝐋', url='https://t.me/dmxall_2'), InlineKeyboardButton('𝐆𝐑𝐎𝐔𝐏', url='https://t.me/dmx_chating')],
+                    [InlineKeyboardButton('𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑', url='https://t.me/basildmx2')]
                 ]
             ),
             disable_web_page_preview=True
@@ -69,7 +69,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [ONWER](https://t.me/basildmx2).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -95,7 +95,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                    text="Something went Wrong. Contact my [ONWER](https://t.me/basildmx2).",
                     parse_mode="markdown",
                     disable_web_page_preview=True)
                 return
@@ -145,7 +145,7 @@ async def help_handler(bot, message):
             if user.status == "kicked":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/linux_repo).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [ONWER](https://t.me/basildmx2).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -167,7 +167,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="Something went Wrong. Contact my [Support Group](https://t.me/linux_repo).",
+                text="Something went Wrong. Contact my [ONWER](https://t.me/basildmx2).",
                 parse_mode="markdown",
                 disable_web_page_preview=True)
             return
@@ -177,8 +177,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"), InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")],
-                [InlineKeyboardButton("Developer", url="https://t.me/AbirHasan2005")]
+                [InlineKeyboardButton("𝐆𝐑𝐎𝐔𝐏", url="https://t.me/dmx_chating"), InlineKeyboardButton("𝐌𝐘 𝐂𝐇𝐀𝐍𝐍𝐄𝐋", url="https://t.me/dmxall_2")],
+                [InlineKeyboardButton("𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑", url="https://t.me/basildmx")]
             ]
         )
     )
